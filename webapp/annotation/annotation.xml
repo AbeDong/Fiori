@@ -49,12 +49,15 @@
 								</Record>
 								<Record Type="UI.DataField">
 									<PropertyValue Property="Value" Path="CustomerID"/>
+									<PropertyValue Property="Label" String="Customer ID"/>
 								</Record>
 								<Record Type="UI.DataField">
 									<PropertyValue Property="Value" Path="OrderDate"/>
+									<PropertyValue Property="Label" String="Order Date"/>
 								</Record>
 								<Record Type="UI.DataField">
 									<PropertyValue Property="Value" Path="RequiredDate"/>
+									<PropertyValue Property="Label" String="Required Date"/>
 								</Record>
 							</Collection>
 						</PropertyValue>
@@ -66,15 +69,19 @@
 							<Collection>
 								<Record Type="UI.DataField">
 									<PropertyValue Property="Value" Path="ShipName"/>
+									<PropertyValue Property="Label" String="Ship Name"/>
 								</Record>
 								<Record Type="UI.DataField">
 									<PropertyValue Property="Value" Path="ShipAddress"/>
+									<PropertyValue Property="Label" String="Ship Address"/>
 								</Record>
 								<Record Type="UI.DataField">
 									<PropertyValue Property="Value" Path="ShipCity"/>
+									<PropertyValue Property="Label" String="Ship City"/>
 								</Record>
 								<Record Type="UI.DataField">
 									<PropertyValue Property="Value" Path="ShipCountry"/>
+									<PropertyValue Property="Label" String="Ship Country"/>
 								</Record>
 							</Collection>
 						</PropertyValue>
